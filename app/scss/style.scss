@@ -1,2 +1,42 @@
-@import "./reset.scss"
+@import "./reset.scss";
 
+
+header {
+    height: 80vh;
+    background: url(./images/bg-pattern-intro-desktop.svg), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 95px;
+
+
+    nav, ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+
+        ul {
+            padding: 0;
+            list-style: none;
+
+
+            li {
+                font-weight: 700;
+                margin: 1rem;
+            }
+        }
+
+        .logo {
+            transform: translateX(-16rem);
+        }
+
+        .nav {
+            transform: translateX(-10rem);
+        }
+
+        .header-cta {
+            transform: translateX(20rem);
+        }
+    }
+}
