@@ -14,7 +14,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 2rem;
+        padding: 4rem 2rem;
 
         ul {
             padding: 0;
@@ -36,7 +36,23 @@ header {
         }
 
         .header-cta {
-            transform: translateX(20rem);
+            transform: translateX(18rem);
+        }
+    }
+
+
+    .header-content {
+        text-align: center;
+        border: 1px solid red;
+        padding-top: 5rem;
+
+        h1 {
+            font-size: 3.3rem;
+            letter-spacing: 1px;
+        }
+
+        p {
+            padding: 1rem 0;
         }
     }
 }
