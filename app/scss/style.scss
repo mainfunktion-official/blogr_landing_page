@@ -37,13 +37,19 @@ header {
 
         .header-cta {
             transform: translateX(18rem);
+
+            ul > li:nth-child(2) {
+                background-color: hsl(0, 0, 100%);
+                color: hsl(0, 0, 0);
+                padding: .8rem 2rem;
+                border-radius: 35px;
+            }
         }
     }
 
 
     .header-content {
         text-align: center;
-        border: 1px solid red;
         padding-top: 5rem;
 
         h1 {
