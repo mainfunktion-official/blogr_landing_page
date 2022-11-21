@@ -5,7 +5,7 @@ header {
     height: 80vh;
     background: url(./images/bg-pattern-intro-desktop.svg), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     background-position: center;
-    background-size: initial;
+    background-size: auto;
     background-repeat: no-repeat;
     border-bottom-left-radius: 95px;
 
@@ -59,6 +59,23 @@ header {
 
         p {
             padding: 1rem 0;
+        }
+
+
+        .header-cta {
+            
+            padding-top: 2rem;
+
+
+            a {
+                background-color: hsl(0, 0, 100%);
+                color: hsl(13, 100%, 72%);
+                font-weight: 700;
+                margin: 1rem;
+                padding: .8rem 2rem;
+                border: 1px solid hsl(0, 0, 100%);
+                border-radius: 35px;
+            }
         }
     }
 }
