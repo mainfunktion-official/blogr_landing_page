@@ -2,19 +2,19 @@
 
 
 header {
-    height: 80vh;
+    height: 75vh;
     background: url(./images/bg-pattern-intro-desktop.svg), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    border-bottom-left-radius: 95px;
+    border-bottom-left-radius: 50px;
 
 
     nav, ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 4rem 2rem;
+        padding: 2rem;
 
         ul {
             padding: 0;
@@ -40,7 +40,7 @@ header {
 
             ul > li:nth-child(2) {
                 background-color: hsl(0, 0, 100%);
-                color: hsl(0, 0, 0);
+                color: hsl(13, 100%, 72%);
                 padding: .8rem 2rem;
                 border-radius: 35px;
             }
@@ -50,10 +50,10 @@ header {
 
     .header-content {
         text-align: center;
-        padding-top: 5rem;
+        padding-top: 3.7rem;
 
         h1 {
-            font-size: 3.3rem;
+            font-size: 3.7rem;
             letter-spacing: 1px;
         }
 
@@ -79,3 +79,5 @@ header {
         }
     }
 }
+
+
