@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    height: 100vh;
     color: hsl(0, 0%, 100%);
     font-size: 16px;
     max-width: 1440px;
@@ -21,4 +22,14 @@ body {
 
 header {
     overflow: hidden;
+}
+
+li, a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    color: hsl(0, 0%, 0);
+    padding: 4rem 0;
 }
