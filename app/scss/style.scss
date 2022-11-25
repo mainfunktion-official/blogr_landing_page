@@ -80,4 +80,33 @@ header {
     }
 }
 
+.designed-for-the-future {
+    text-align: center;
+    
+    .dftf-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10rem;
 
+    .dftf-text-content {
+    border: 1px solid red;
+    width: auto;
+    }
+
+    h3, p {
+    text-align: left;
+    letter-spacing: 1px;
+
+    p {
+        font-size: .8rem;
+    }
+    }
+}
+}
+
+.dftf-image-content {
+    img {
+    transform: translateX(19.1rem);
+    }
+}
